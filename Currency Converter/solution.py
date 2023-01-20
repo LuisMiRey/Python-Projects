@@ -20,7 +20,7 @@ print("Euro to Dollar")
 print(f"{base} {EUR} is {response.json()['rates'][USD]} {USD}")
 
 question=input("Do you want another conversion (Y/N): ")
-s
+
 if question=="Y":
     from_currency = str(
         input("Enter the name of the currency (3 letters) you'd like to convert from:")).upper()
