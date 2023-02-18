@@ -5,7 +5,7 @@ class Dog:
 
     def __init__(self,name,age):
         print("I am alive!")
-        self.lucky_number = random.randint(1,10)
+        self.lucky_number = random.randint(1,100)
         self.name = name
         self.age = age
         
@@ -23,5 +23,6 @@ print(dog1.name)
 print(dog2.name)
 print(dog1.age)
 print(dog2.age)
+print(dog1.lucky_number)
 # print(dog3.name) name attribute is only creatred to previous object.
 
