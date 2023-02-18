@@ -7,10 +7,10 @@ class Animal:
         print("An animal is created")
         self.name = name
 
-class Dog(Animal):
+class Dog(Animal):  #Name in square brakets means parent of the class
     info = "a domesticated carnivorous mammal that typically has a long snout"
 
-    def __init__(self, name):
+    def __init__(self, name):   #argument name is necessary due to parent.
         super().__init__(name)
         print("A dog is created")
         self.lucky_number = random.randint(1,10)
@@ -20,13 +20,13 @@ class Dog(Animal):
     def bark(self):
         print(f"Wolf! My name is {self.name} and my number is {self.lucky_number}")
 
-class Bulldog(Dog):
+class Bulldog(Dog): #Name in square brakets means parent of the class
 
     def __init__(self,name):
         super().__init__(name)
         print("A Bulldog is created")
 
-class Pet(Bulldog):
+class Pet(Bulldog): #Name in square brakets means parent of the class
 
     def __init__(self,name):
         super().__init__(name)
