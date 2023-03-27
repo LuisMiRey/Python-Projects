@@ -5,10 +5,10 @@ class Student:
         self.name = name
         self.score = score
 
-student = [Student("Andres", 0.46), Student("Naomi", 0.75), Student("Musk", 0.95)]
+students = [Student("Andres", 0.46), Student("Naomi", 0.75), Student("Musk", 0.95)]
 
 student_results = []
-for student in student:
+for student in students:
 #    if student.score >= 0.7:
 #        student_results.append(f"{student.name} Passed")
 #    else:
